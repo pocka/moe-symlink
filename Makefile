@@ -2,7 +2,7 @@
 
 .SUFFIXES: .go
 
-VERSION = $(shell git describe --abbrev=0)
+VERSION = $(shell git describe --abbrev=0 --tags)
 
 .PHONY: default
 default: debug
