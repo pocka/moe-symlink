@@ -16,7 +16,7 @@ func main() {
 		"colorcfg.ini",
 		"friend.txt",
 		"ignore.txt",
-		"keyconfig.txt",
+		"keyconfig.ini",
 		"msgopt.ini",
 		"wnd.ini",
 		"wnd_docking.ini",
