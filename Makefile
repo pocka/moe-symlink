@@ -15,4 +15,6 @@ debug/moe-symlink: src/main.go
 
 .PHONY: release
 release: release/moe-symlink.exe
+
+release/moe-symlink.exe: src/main.go
 	GOOS=windows GOARCH=amd64 go build -ldflags "-X main.version=$(VERSION)" -o $@ $<
